@@ -1,0 +1,23 @@
+import numpy as np
+a = np.array([10, 20, 30, 40, 50])
+b = np.array([1, 2, 3, 4, 5])
+add = a+b
+sub = a-b
+mul = a*b
+div = a/b
+mean_a = np.mean(a)
+max_a = np.max(a)
+min_a = np.min(a)
+dot_product = np.dot(a,b)
+reshaped_a = a.reshape(5*1)
+print("A =",a)
+print("B =",b)
+print("A+B =",add)
+print("A-B =",sub)
+print("A*B =",mul)
+print("A/B =",div)
+print("Mean A =",mean_a)
+print("Max A =",max_a)
+print("Min A =",min_a)
+print("Dot Product =",dot_product)
+print("Reshaped A =",reshaped_a)
